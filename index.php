@@ -12,9 +12,6 @@ include 'includes/header.php';
         echo'<br/>';
         echo 'Second Line';
         echo'<br/>';
-    ?>
-
-    <?php
         //declear variable
         $name = 'Lenice Brissett';
         $age = '26';
@@ -22,7 +19,10 @@ include 'includes/header.php';
         echo $name;
         echo '<h1>My Name is: '.$name.'</h1>';
         echo '<h1>My Age is: '.$age.'</h1>'
+
     ?>
+
+    <button type="button" class="btn btn-dark"> Click Me!</button>
  
     <?php 
         require 'includes/footer.php'

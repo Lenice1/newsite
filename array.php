@@ -1,5 +1,5 @@
 <?php 
-$title = "PHP Primer- Array";
+$title = "PHP Primer- Array & Printouts";
 include 'includes/header.php'; 
 ?>
 </head>
