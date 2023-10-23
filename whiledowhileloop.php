@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer- While/Do While Loops</title>
+<?php 
+$title = "PHP Primer- While/Do While Loops";
+include 'includes/header.php'; 
+?>
+
 </head>
 <body>
-    <h1> While Loops</h1>
+    <h1><?php echo $title ?></h1>
     <?php
-        echo '<h2> While/Do While Loops</h2>';
+        
          // Infinite Loop
          // $grade = 0;
          //while($grade < 10){
@@ -33,5 +32,6 @@
         }while ($grade < 10);
         echo 'EXIT LOOP!';
     ?>
-</body>
-</html>
+  <?php 
+        require 'includes/footer.php'
+     ?>

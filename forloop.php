@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer- For Loop</title>
+<?php 
+$title = "PHP Primer- For Loop";
+include 'includes/header.php'; 
+?>
+
 </head>
 <body>
-    <h1> For Loop</h1>
+<h1><?php echo $title ?></h1>
     <?php
-        echo '<h2> For Loop</h2>';
+
 
         for($count = 0; $count < 10; $count++){
             echo '<p>HELLO WORLD</p>';
@@ -17,5 +16,6 @@
             echo "<p>The Count is: $count</p>";
         }
     ?>
-</body>
-</html>
+  <?php 
+        require 'includes/footer.php'
+     ?>

@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Primer- Array</title>
+<?php 
+$title = "PHP Primer- Array";
+include 'includes/header.php'; 
+?>
 </head>
 <body>
-    <h1>Array</h1>
+<h1><?php echo $title ?></h1>
     <?php
-        echo '<h2>Array</h2>';
 
         // A Variable
         $num = 3;
@@ -28,5 +25,6 @@
 
         
     ?>
-</body>
-</html>
+  <?php 
+        require 'includes/footer.php'
+     ?>
